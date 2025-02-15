@@ -1,10 +1,7 @@
-# Исключаем всё кроме data/ (но data/backups тоже исключаем)
+# Исключаем локальные данные
 /backups/
-/data/backups/
+/data/eula.txt
 /data/logs/
 /data/crash-reports/
-/data/libraries/
-/data/versions/
 /data/*.log
-/data/*.jar
-/docker/.ssh/
+/data/server.properties
