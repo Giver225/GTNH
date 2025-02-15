@@ -1,0 +1,10 @@
+# Исключаем всё кроме data/ (но data/backups тоже исключаем)
+/backups/
+/data/backups/
+/data/logs/
+/data/crash-reports/
+/data/libraries/
+/data/versions/
+/data/*.log
+/data/*.jar
+/docker/.ssh/
